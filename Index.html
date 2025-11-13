@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eletrônica Planalto - A sua loja completa de eletrônicos, antenas, segurança e muito mais.">
+    <title>Eletrônica Planalto - O Melhor em Eletrônicos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+<div class="logo">
+            <a href="/">
+                <img src="https://cdn.awsli.com.br/400x300/1047/1047116/logo/9d17003749.png" alt="Símbolo Planalto" class="logo-icon"> 
+                
+                Eletrônica <span class="logo-accent">Planalto</span>
+            </a>
+        </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="O que você está procurando?">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="header-icons">
+                <a href="#" class="icon-link" aria-label="Minha Conta">
+                    <i class="fas fa-user"></i>
+                    <span>Minha Conta</span>
+                </a>
+                <a href="#" class="icon-link" aria-label="Lista de Desejos">
+                    <i class="fas fa-heart"></i>
+                    <span>Desejos</span>
+                </a>
+                <div class="cart-container">
+                    <a href="#" class="icon-link" id="cart-icon" aria-label="Carrinho de Compras">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Carrinho</span>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <div class="cart-dropdown" id="cart-dropdown">
+                        <p>Seu carrinho está vazio.</p>
+                        </div>
+                </div>
+            </div>
+            
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <nav class="main-nav" id="main-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Antenas</a></li>
+                    <li><a href="#">Baterias</a></li>
+                    <li><a href="#">Cabos</a></li>
+                    <li><a href="#">Celular Rural</a></li>
+                    <li><a href="#">Controle para Portão</a></li>
+                    <li><a href="#">Ferramentas</a></li>
+                    <li><a href="#">Iluminação</a></li>
+                    <li><a href="#">Informática</a></li>
+                    <li><a href="#">Instalação de TV</a></li>
+                    <li><a href="#">Materiais Elétricos</a></li>
+                    <li><a href="#">Receptores</a></li>
+                    <li><a href="#">Segurança Eletrônica</a></li>
+                    <li><a href="#">Suportes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero-banner">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Ofertas da Semana</h1>
+                    <p>Tecnologia e inovação com preços que você nunca viu.</p>
+                    <a href="#" class="btn btn-primary">Ver Ofertas Agora</a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="featured-categories">
+            <div class="container">
+                <h2>Navegue por Categorias</h2>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="https://revistadigitalsecurity.com.br/wp-content/uploads/2019/07/Foto-Elsys-1170x780.jpg" alt="Segurança Eletrônica">
+                        <span>Segurança Eletrônica</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="https://cdn.awsli.com.br/2500x2500/1047/1047116/produto/73722445/94e24c4ffb.jpg" alt="Celular Rural">
+                        <span>Celular Rural</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="https://cirilocabos.vtexassets.com/arquivos/ids/171897-1200-1200?v=636445263312600000&width=1200&height=1200&aspect=true" alt="Antenas">
+                        <span>Antenas</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="https://cdn.awsli.com.br/600x450/1047/1047116/produto/118608155/7b6bd90b8b.jpg" alt="Ferramentas">
+                        <span>Ferramentas</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="https://cdn.awsli.com.br/600x1000/2719/2719384/produto/280791740/c83c5b81452cbb207b2e75f1f5bfc3d5-nrr4yff4j0.jpg" alt="Iluminação">
+                        <span>Iluminação</span>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="https://cdn.awsli.com.br/600x450/1047/1047116/produto/111458358/5199206533.jpg" alt="Informática">
+                        <span>Informática</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-offers">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Ofertas Imperdíveis</h2>
+                    <div class="countdown-timer" id="countdown-timer">
+                        Termina em: <span>00d 00h 00m 00s</span>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-badge">OFERTA</div>
+                        <img src="https://images.tcdn.com.br/img/img_prod/332274/camera_de_seguranca_full_hd_1080p_2mp_bullet_20_metros_infravermelho_lente_2_8mm_tudo_forte_10772_1_3d9abae3f8ace1b4a30df9aee780b65b.jpg" alt="Câmera de Segurança">
+                        <div class="product-info">
+                            <h3>Câmera de Segurança Full HD 1080pCâmera</h3>
+                            <div class="price-container">
+                                <span class="old-price">R$ 85,30</span>
+                                <span class="new-price">R$ 63,98</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">30% OFF</div>
+                        <img src="https://cdn.awsli.com.br/2500x2500/1047/1047116/produto/73722445/94e24c4ffb.jpg" alt="Antena Celular Rural">
+                        <div class="product-info">
+                            <h3>Antena Celular Rural 4G</h3>
+                            <div class="price-container">
+                                <span class="old-price">R$ 190,00</span>
+                                <span class="new-price">R$ 169,90</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://cdn.awsli.com.br/600x450/1047/1047116/produto/118608155/7b6bd90b8b.jpg" alt="Kit Ferramentas">
+                        <div class="product-info">
+                            <h3>Multimetro Digital</h3>
+                            <div class="price-container">
+                                <span class="new-price">R$ 42,90</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">OFERTA</div>
+                        <img src="https://cdn.awsli.com.br/600x1000/2719/2719384/produto/280791740/c83c5b81452cbb207b2e75f1f5bfc3d5-nrr4yff4j0.jpg" alt="Refletor LED">
+                        <div class="product-info">
+                            <h3>Refletor LED Holofote 100W</h3>
+                            <div class="price-container">
+                                <span class="old-price">R$ 120,00</span>
+                                <span class="new-price">R$ 89,90</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <div class="container">
+                <h2>Mais Vendidos</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://cdn.awsli.com.br/600x450/1047/1047116/produto/61002457/d868ea1721.jpg" alt="Controle Portão">
+                        <div class="product-info">
+                            <h3>Controle Portão Eletrônico</h3>
+                            <div class="price-container">
+                                <span class="new-price">R$ 29,90</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_995859-MLA95741315188_102025-F.webp" alt="Cabo HDMI">
+                        <div class="product-info">
+                            <h3>Cabo HDMI 2.0 4K - 2 Metros</h3>
+                            <div class="price-container">
+                                <span class="new-price">R$ 45,00</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://ouzer.com/wp-content/uploads/2025/11/Fonte-Estabilizadora-Bivolt-Saida-12V-2A.webp" alt="Fonte 12V">
+                        <div class="product-info">
+                            <h3>Fonte Chaveada 12V 5A</h3>
+                            <div class="price-container">
+                                <span class="new-price">R$ 55,00</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://cdn.awsli.com.br/600x450/1047/1047116/produto/50002968/4cf4b5f337.jpg" alt="Suporte TV">
+                        <div class="product-info">
+                            <h3>Suporte Articulado TV 32-55"</h3>
+                            <div class="price-container">
+                                <span class="new-price">R$ 139,90</span>
+                            </div>
+                            <button class="btn btn-add-cart"><i class="fas fa-shopping-cart"></i> Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partner-brands">
+            <div class="container">
+                <h2>As Melhores Marcas Você Encontra Aqui</h2>
+                <div class="brands-logo-grid">
+                    <img src="https://images.seeklogo.com/logo-png/24/1/intelbras-logo-png_seeklogo-242230.png" alt="Logo Intelbras">
+                    <img src="https://images.seeklogo.com/logo-png/52/1/giga-security-logo-png_seeklogo-520316.png" alt="Logo Giga Security">
+                    <img src="https://images.seeklogo.com/logo-png/22/1/hikvision-logo-png_seeklogo-223929.png" alt="Logo Hikvision">
+                    <img src="https://images.seeklogo.com/logo-png/21/1/ppa-automatizacao-de-portoes-logo-png_seeklogo-213464.png" alt="Logo PPA">
+                    <img src="https://images.seeklogo.com/logo-png/18/1/aquario-logo-png_seeklogo-180465.png" alt="Logo Aquário">
+                    <img src="https://images.seeklogo.com/logo-png/22/1/elsys-digital-antena-logo-png_seeklogo-225153.png" alt="Logo Elsys">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>Eletrônica Planalto</h3>
+                <p>Rua Quintino Bocaiúva, 672, Setor Campinas</p>
+                <p>Goiânia, GO - 74515-050</p>
+                <p>Telefone: (62) 3233-7093</p>
+                <p>Email: eletronicaplanalto@gmail.com</p>
+                <p>Horário: Seg-Sex 8h-18h | Sáb 8h-12h</p>
+            </div>
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Política de Troca</a></li>
+                    <li><a href="#">Formas de Pagamento</a></li>
+                    <li><a href="#">Frete e Entrega</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Institucional</h3>
+                <ul>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Nossas Lojas</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://youtube.com.br/channel/UCW0L7YvSNI11L9e5ntJXrKA/videos?view_as=subscriber" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/eletronicaplanalto/?hl=pt-br" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/556299155031?text=ol%C3%A1%20eletr%C3%B4nica%20planalto!%20pode%20me%20ajudar?" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Eletrônica Planalto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
